@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  source_postgres:
+    image: postgres:latest
+    ports:
+      - "5433:5432"
+    neteworks:
+      - elt_network
+
+
+networks:
+  elt_network:
+    driver: bridge
