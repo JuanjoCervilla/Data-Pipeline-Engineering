@@ -1,0 +1,8 @@
+[0m16:05:06.980141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299EACC2590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299EDBF8890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299EDBF8050>]}
+
+
+============================== 16:05:06.988152 | ed8558b2-77c7-4c2c-9cd2-7e3ec3acfdd8 ==============================
+[0m16:05:06.988152 [info ] [MainThread]: Running with dbt=1.9.2
+[0m16:05:06.989141 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Juanjo\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:05:07.018777 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/Juanjo/.dbt')}
+[0m16:05:07.019774 [info ] [MainThread]: Creating dbt configuration folder at 
